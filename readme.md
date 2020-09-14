@@ -14,3 +14,7 @@ git status
 查看日志（简单版）
 ## git diff
 查看文件变更信息
+## git reset --hard 版本号
+HEAD^返回上一个版本
+## git remote add origin 
+把本地仓库与远程仓库关联
