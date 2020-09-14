@@ -12,3 +12,5 @@ git status
 查看日志
 ## git reflog
 查看日志（简单版）
+## git diff
+查看文件变更信息
