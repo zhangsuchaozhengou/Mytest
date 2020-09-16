@@ -19,4 +19,11 @@ git status
 HEAD^返回上一个版本
 ## git remote add origin 
 把本地仓库与远程仓库关联
+<<<<<<< HEAD
 ## 添加的
+=======
+## 先提交在更新
+## git branch 
+git checkout 分支名
+## text1 分支
+>>>>>>> test1
