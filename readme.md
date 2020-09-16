@@ -24,3 +24,7 @@ HEAD^返回上一个版本
 ## git branch 
 git checkout 分支名
 ## text1 分支
+git branch -d
+git checked 分支名
+git branch 分支名
+git merge 合并分支到master
