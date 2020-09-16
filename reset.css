@@ -1,0 +1,11 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, 
+legend, button, input, textarea, th, td, a,img,i,span{ margin:0; padding:0; }
+li{ list-style: none; }
+i,em{font-style: normal;}
+s,strong{font-weight: normal;}
+a { text-decoration:none; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset{ border:0; }
+table { border-collapse:collapse; border-spacing:0; }

@@ -19,3 +19,4 @@ git status
 HEAD^返回上一个版本
 ## git remote add origin 
 把本地仓库与远程仓库关联
+## 添加的

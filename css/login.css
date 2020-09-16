@@ -1,0 +1,435 @@
+
+.top_wrap{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+}
+.top{
+    width: 990px;
+    height: 120px;
+    margin: 0 auto;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.logo{
+    width: 300px;
+    height: 62px;
+    margin-top: 29px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.logo a{
+    margin-top: 3px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.hy{
+    float: left;
+    height: 62px;
+    padding: 0 10px;
+    line-height: 62px;
+    color: #ddd;
+    font-size: 36px;
+    text-align: center;
+    border-left: 1px solid #eee;
+}
+/*       main     */
+.main_wrap{
+    height: 510px;
+    width: 100%;
+    background: #fff1e8;
+    border-top: 1px solid ;
+    border-top: 1px solid #fee6bc;
+}
+.main{
+    height: 480px;
+    width: 1200px;
+    margin: 0 auto;
+}  
+.tit{
+    width: 828px;
+    height: 29px;
+    padding-left: 10px;
+    margin: 0 auto;
+    background-color: #fff4e3;
+    color: #ff7f23;
+    font: 400 12px/29px "Microsoft Yahei";
+} 
+.tit>a{
+    color: #2875cc;
+    cursor: pointer;
+}
+.login_main{
+    width: 350px;
+    min-height: 350px;
+    float: right;
+    margin: 24px 105px 0 0;
+    background-color: #fff;
+    position: relative;
+}
+.login_style{
+    height: 55px;
+    width: 350px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+.login_style>div{
+    font: 500 18px "Microsoft ";
+    line-height: 55px;
+    color: #5e5e5e;
+    text-align: center;
+    user-select: none;
+}
+.login_style .login_style_left{
+    width: 174px;
+    height: 55px;
+    float: left;
+    color: #e3101e;
+    position: relative;
+    cursor: pointer;
+}
+.login_style_left::after{
+    content: '';
+    width: 1px;
+    height: 20px;
+    background-color: #ddd;
+    position: absolute;
+    right: -1px;
+    top: 17px;
+}
+.login_style .login_style_right{
+    width: 175px;
+    height: 55px;
+    float: right;
+    cursor: pointer;
+}
+/*  login_middle */
+.login_middle{
+    width: 325px;
+    min-height: 200px;
+    padding: 0 10px 0 15px;
+    position: relative;
+    display: block;
+}
+.login_middle::after{
+    content: '';
+    clear: both;
+    height: 0;
+    display: block;
+    overflow: hidden;
+}
+.er_wrap{
+    width: 185px;
+    height: 185px;
+    /* margin: 30px 140px; */
+    margin: 20px  0 0 69px;
+}
+.er_wrap img{
+    width: 165px;
+    height: 165px;
+    margin: 10px;
+}
+.login_middle .hid_img{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    z-index: 2;
+    display: none;
+}
+.login_middle p{
+    text-align: center;
+    font-size: 12px;
+    color: #5e5e5e;
+    height: 16px;
+    line-height: 16px;
+}
+.login_middle p:nth-child(1){
+    margin-top: 17px;
+}
+.login_middle p a{
+    color: #ff5757;
+}
+.login_middle .register_{
+    margin-bottom: 8px;
+   
+    text-align: right;
+}
+.login_middle .register_ a{
+    color: #006699;
+    margin-right: 15px;
+}
+
+/* 账号登陆 */
+.login_middle2{
+    width: 290px;
+    min-height: 240px;
+    padding: 10px 30px 0;
+    position: relative;
+    display: none;
+}
+.cuo_wrap{
+    width: 290px;
+    height: 26px;
+}
+ .cuo1{
+    height: 22px;
+    width: 290px;
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 4px;
+    color: #e3111e;
+    background-color: #ffeeee;
+    overflow: hidden;
+    opacity: 1!important;
+    filter:alpha(opacity=100);
+    display: none;
+}
+
+.cuo1 .icon{
+    width: 14px;
+    height: 14px;
+    float: left;
+    overflow: hidden;
+    margin: 4px 5px 0 10px;
+    display: inline-block;
+    background-image: url(../img/login_ui2.png);
+    background-position: -41px -54px;
+}
+.cuo1.error_txt{
+    float: left;
+    height: 22px;
+    min-width: 200px;
+    font-size: 12px;
+    line-height: 22px;
+}
+.login_middle2>input{
+    padding: 8px 10px 7px;
+    width: 268px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 14px;
+    border: none;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #5e5e5e;
+    font-size: 12px;
+}
+/* .login_middle2 .mt{
+    margin-top: 26px;
+} */
+.login_middle2 .check_wrap{
+    height: 14px;
+    width: 290px;
+    font-size: 12px ;
+    width: 100%;
+    overflow: hidden;
+}
+.login_middle2 .check_wrap .forget a{
+    font-size: 12px;
+    color: #5e5e5e;
+}
+.check{
+    float: left;
+    min-width: 80px;
+    color: #5e5e5e;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+}
+.check>input{
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-top: 1px;
+}
+.check>i{
+    float: left;
+    padding-left: 4px;
+    height: 14px;
+    line-height: 14px;
+    min-width: 30px;
+}
+.forget{
+    float: right;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5e5e5e;
+}
+.btn{
+    width: 280px;
+    padding: 0 5px;
+    height: 42px;
+    background-color: #ff5757;
+    color: #fff;
+    text-align: center;
+    word-spacing: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 42px;
+    margin-top: 15px;
+}
+.phone{
+    height: 14px;
+    width: 290px;
+    margin: 30px 0 15px 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2875cc;
+    cursor: pointer;
+}
+.phone i:hover{
+    text-decoration: underline;
+}
+/* bottom */
+.login_select{
+    width: 308px;
+    height: 42px;
+    line-height: 30px;
+    background-color: #fcfcfc;
+    padding: 0 20px;
+    border: 1px solid #f0f0f0;
+    position: relative;
+    overflow: hidden;
+}
+.login_select a{
+    float: left;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 12px;
+    color: #5e5e5e;
+    padding: 0 8px;
+    margin: 6px 0;
+    border-left: 1px solid #e6e6e6;
+}
+.login_select a:nth-child(1){
+    border: none;
+}
+.login_select .born{
+    border: none;
+}
+.login_select span{
+    float: right;
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-position: 0 0;
+    background: url(../img/login_ui1.png) no-repeat;
+}
+/*                     底部                        */
+.bottom_wrap{
+    width: 990px;
+    margin: 40px auto;
+    /* border-top: 1px solid #dd00a7; */
+    background: #fff;
+    zoom: 1;
+    min-height: 200px;
+    padding-top: 20px;
+}
+.bottom_main{
+    width: 1200px;
+    min-height: 260px;
+    margin: 0 auto;
+    position: relative;
+}
+.bottom_main p{
+    height: 22px;
+    font: 12px/22px Arial;
+    color: #999;
+}
+.bottom_main p a{
+    color: #999;
+}
+.bottom_main p a:hover{
+    color:#f5004b;
+}
+.bottom_main p a span{
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    background: url(../img/ui.png) 0 -1712px;
+    position: relative;
+    bottom: -5px;
+}
+.bottom_p1{
+    height: 20px;
+    font-size: 12px;
+    color: #ccc;
+}
+.bottom_p1 span{
+    margin-right: 13px;
+}
+.bottom_p1 a{
+    height: 20px;
+    color: #666;
+    margin-right: 13px;
+}
+.bottom_bottom{
+    width: 990px;
+    height: 35px;
+    border-top: 1px solid #e6e6e6;
+    margin-top: 5px;
+    padding: 10px 0 25px 0;
+}
+.bottom_bottom a{
+    display: inline-block;
+}
+.bottom_bottom a i{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../img/ui.png) 0 -180px;
+    float: left;
+}
+.bottom_bottom a b{
+    font: 12px/18px Arial,"Microsoft YaHei";
+    display: block;
+    width: 60px;
+    float: left;
+    color: #999;
+    padding: 0 20px 0 5px;
+    font-weight: 400;
+}
+.bottom_bottom a:nth-child(2) i{
+    background: url(../img/ui.png) -35px -180px;
+}
+.bottom_bottom a:nth-child(2) b{
+    width: 50px;
+}
+.bottom_bottom a:nth-child(3) i{
+    background: url(../img/ui.png) -70px -180px;
+}
+.bottom_bottom a:nth-child(3) b{
+    padding-top: 9px;
+    width: 50px;
+}
+.bottom_bottom a:nth-child(4) i{
+    background: url(../img/ui.png) -105px -180px;
+}
+.bottom_bottom a:nth-child(4) b{
+    width: 50px;
+}
+.bottom_bottom a:nth-child(5) i{
+    background: url(../img/ui.png) -140px -180px;
+}
+.bottom_bottom a:nth-child(5) b{
+    padding-top: 9px;
+    width: 60px;
+}
+.bottom_bottom a:nth-child(6) i{
+    background: url(../img/ui.png) -175px -180px;
+}
+.bottom_bottom a:nth-child(6) b{
+    width: 110px;
+}
+.bottom_bottom a:nth-child(7) i{
+    background: url(../img/ui.png) -238px -180px;
+}
+.bottom_bottom a:nth-child(7) b{
+    width: 80px;
+}
